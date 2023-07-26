@@ -10,6 +10,7 @@ This project provides the following functions
 4. Send the TXT file as an attachment via email
 5. In theory, the collection frequency or content can be customized by the user
 6. Provide more assistance, including how to package the software as an executable file, how to set startup and self start, etc., to help users better
+
 #中文
 该项目提供以下功能
 1.收集主机当前全部进程信息（进程名称、进程PID）
