@@ -19,3 +19,6 @@ This project provides the following functions
 4.采用邮件的方式对该TXT文件采用附件的方式发送
 5.理论上采集频率或采集内容可以由用户自定义
 6.提供更多帮助：包括如何打包软件为可执行文件、如何设置开机自启动等，帮助用户更好地监控主机使用者的情况。
+
+如需打包，请在编译和验证成功后使用pyinstaller -F -w -i icon.ico xxxxx.py打包程序（后台运行）
+如果仍在验证阶段需要查看输出信息，请使用pyinstaller -F -i icon.ico xxxxx.py打包程序（前台运行）
